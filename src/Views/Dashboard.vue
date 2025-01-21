@@ -5,12 +5,15 @@
       <div class="p-4">
         <h2 class="text-xl mb-4">Menú</h2>
         <nav>
-          <ul>
+          <ul><br>
             <li class="mb-2">
               <router-link to="/pacientes" class="text-white hover:text-gray-300">Pacientes</router-link>
             </li>
             <li class="mb-2">
               <router-link to="/tutores" class="text-white hover:text-gray-300">Tutores</router-link>
+            </li><br>
+            <li class="mb-2">
+              Importar
             </li>
           </ul>
         </nav>
